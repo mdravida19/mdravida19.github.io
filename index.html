@@ -1,1 +1,77 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="Description" content="Personal Blog"></meta>
+  <meta
+    property="og:title"
+    content="Meghana Seetharam's webpage"
+    key="title"
+   />
+  <title>Meghana Seetharam</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="icon" href="assets/favicon.png" type="image/png">
+</head>
+<body class="flex flex-col min-h-screen">
+    <div class="container mx-auto py-5 sm:py-10">
+        <img class="object-cover w-40 h-40 sm:w-48 sm:h-48 rounded-full border-4 border-slate-200 overflow-hidden mx-auto my-auto"
+            src="assets/meghana.jpeg"
+            alt="meghana seetharam"/>
+    </div>
+    <h1 class="text-2xl sm:text-5xl text-center mt-4">Meghana Seetharam</h1>
+    <p class="text-sm text-gray-600 text-center m-2">Pronounced: <span class="italic">may-guh-naa</span></p>
+    <h1 class="sm:text-xl text-center my-4">Staff Engineer, New York</h1>
+
+    <div class="flex flex-col sm:flex-row items-center justify-center gap-2 my-2">
+        <a target="_blank" href="https://www.linkedin.com/in/meghana-seetharam/"
+        class="px-3 py-2 rounded mx-2 flex items-center">
+            <i class="fab fa-linkedin fa-2x mr-2"></i>
+        </a>
+        <a target="_blank" href="https://github.com/mdravida19"
+            class="px-3 py-2 rounded mx-2 flex items-center">
+            <i class="fab fa-github fa-2x mr-2"></i>
+        </a>
+        <a target="_blank" href="https://x.com/mdravida19"
+            class="px-3 py-2 rounded mx-2 flex items-center">
+            <i class="fab fa-x fa-2x mr-2"></i>
+        </a>
+    </div>
+    <div class="flex flex-col p-5 sm:p-10">
+        <p class="text-lg px-10 sm:px-40 sm:text-xl text-slate-600 text-justify">
+            Hi! I’m a builder who enjoys shipping products across the stack (product, ML, data & backend, etc). I’ve taken several ideas to production scale at Spotify (Human-in-the-Loop labeling platform with 100k+ labels, ML Content Moderation for 500m+ assets), creating teams and leading the tech & product roadmaps.
+            <br /><br />
+            I love working on hack projects and write the occasional blog. Thanks for stopping by! ✌🏽
+        </p>
+    </div>
+    <div class="flex flex-col p-5 sm:p-10 items-center justify-center">
+        <h1 class="text-2xl font-bold border-black mb-4">Fun Projects</h1>
+        <div class="flex flex-wrap md:flex-nowrap justify-center lg:space-x-4 md:space-x-4">
+            <div class="flex flex-col my-4 hover:cursor-pointer rounded h-[304px] w-60 shadow-lg border">
+                <a class="flex flex-col p-2 items-center" href="https://mindfully-5198f.web.app/#/" target="_blank" >
+                    <img class="object-cover"
+                    src="assets/mindfully.png" >
+                    <p class="text-sm text-slate-600 p-2 text-center">
+                        A crowd-sourced collection of weight-neutral healthcare professionals that practice Health-At-Every-Size.
+                    </p>
+                  </a>
+            </div>
+            <div class="flex flex-col my-4 hover:cursor-pointer rounded h-[304px] w-60 shadow-lg border" >
+                <a class="flex flex-col p-2 items-center" href="https://sites.google.com/view/docsmry/home?authuser=0" target="_blank">
+                    <img class="object-cover bg-gray-100"
+                    src="assets/smry.png" >
+                    <p class="text-sm text-slate-600 p-2 text-center">
+                        An extension to summarize large documents using AI.
+                    </p>
+                  </a>
+            </div>
+        </div>
+    </div>
+    <div class="flex flex-col p-5 sm:p-10 items-center justify-center">
+        <h1 class="text-2xl font-bold border-black mb-4">Yo, check out my blog!</h1>
+        <iframe src="https://buildher.substack.com/embed" width="480" height="320" frameborder="0" scrolling="no"></iframe>
+    </div>
+</body>
+</html>
